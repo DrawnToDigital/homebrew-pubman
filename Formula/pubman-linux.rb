@@ -1,9 +1,9 @@
 class PubmanLinux < Formula
   desc "Draft, Track, and Publish 3D models to multiple platforms (Linux version)"
   homepage "https://github.com/DrawnToDigital/pubman"
-  version "2025.6.3"
+  version "2025.6.4"
   url "https://github.com/DrawnToDigital/pubman/releases/download/v#{version}/PubMan-#{version}.AppImage"
-  sha256 "d933929d74d18186a87e55e14a2873f10faa6e79c3e8daa637a5aa2e4c547337"
+  sha256 "45eefe1fa1fca9bd085ed5d60ef16af0fd09bc41fb3e3acfc333432ac82a4e9b"
 
   depends_on :linux
 
