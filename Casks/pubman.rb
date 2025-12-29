@@ -1,9 +1,9 @@
 cask "pubman" do
   arch arm: "-arm64"
 
-  version "2025.7.1"
-  sha256 arm:   "71495200d763fd7a1400b5228d3b0f7ad358a2e8771f90ed4951ea31a9734c3a",
-         intel: "f5692549daa97785c80468cb1921f66edfee80d10e60d9599177527cf3dc22a6"
+  version "2025.12.0"
+  sha256 arm:   "3a2c86a6e4344c85ba999cde6024c91278ce78ccc884f851f137adfee0d345a3",
+         intel: "7f49396855a430a319bd25ec64d916637049444f68f0bf7f4c595ef893cb7148"
 
   url "https://github.com/DrawnToDigital/pubman/releases/download/v#{version}/PubMan-#{version}#{arch}.dmg"
   name "PubMan 3D Model Publishing"
