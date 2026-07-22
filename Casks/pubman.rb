@@ -10,7 +10,7 @@ cask "pubman" do
   desc "Draft, Track, and Publish 3D models to multiple platforms"
   homepage "https://github.com/DrawnToDigital/pubman"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "PubMan.app"
 
